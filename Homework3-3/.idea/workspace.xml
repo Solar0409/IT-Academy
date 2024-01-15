@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a40e50b2-01bf-4509-9382-aefc1f9c490e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Homework1/src/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Homework3/src/Cosmetics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/AuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/DataStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/LocalizationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/OnlineStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/RegistrationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/AuthenticationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Catalog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/CommandManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/DataStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/LocalizationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/OnlineStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/RegistrationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop1/src/Visitor.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/shop1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2axDIGCqhfpDKlxypLrHqwR4Fyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a40e50b2-01bf-4509-9382-aefc1f9c490e" name="Changes" comment="" />
+      <created>1705251254446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705251254446</updated>
+      <workItem from="1705251255522" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
