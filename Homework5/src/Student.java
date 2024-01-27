@@ -1,0 +1,101 @@
+import java.util.*;
+import java.util.Iterator;
+
+
+//Task4
+public class Student {
+
+    private String name;
+    private int nGroup;
+    private int[] points;
+    private float av_p;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getnGroup() {
+        return nGroup;
+    }
+
+
+    public int[] getPoints() {
+
+        if (this.points == null) {
+            return null;
+        }
+        return this.points.clone();
+    }
+
+    public  void av_p() {
+        float sum = 0;
+        for (int e : points) {
+            sum += e;
+        }
+        av_p = sum / points.length;
+    }
+
+    Student() {};
+
+    public Student(String s, int n) {
+        this.name = s;
+        this.nGroup = n;
+        this.points = new int[4];
+        Random random = new Random();
+        for (int i = 0; i < 4; ++i) {
+            this.points[i] = random.nextInt(10);
+        }
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        //Task4
+        System.out.println("Введите количество студентов:");
+
+        int quanStudents = sc.nextInt();
+
+        ArrayList<Student> univ = new ArrayList<Student>();
+
+        Student Andrej = new Student("Andrej", 345);
+        univ.add(Andrej);
+
+        System.out.println("All points: ");
+        for (int i = 0; i < 4; ++i) {
+            System.out.print(Andrej.getPoints()[i] + "\t");
+        }
+
+        System.out.println("Max point: ");
+
+        for (int i = 0; i < 4; ++i) {
+            System.out.print(Andrej.getPoints()[i] + "\t");
+        }
+
+
+        sc.close();
+
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.add(78);
+        marks.add(82);
+        marks.add(91);
+        marks.add(65);
+        marks.add(88);
+
+        Iterator<Integer> iterator = marks.iterator();
+        int maxMark = Integer.MIN_VALUE;
+
+        while (iterator.hasNext()) {
+            int mark = iterator.next();
+            if (mark > maxMark) {
+                maxMark = mark;
+            }
+        }
+
+        System.out.println("Самая высокая оценка: " + maxMark);
+
+    }
+
+
+
+}
+
+
