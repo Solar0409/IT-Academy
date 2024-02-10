@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//Task2
 public class FileCopyCopy {
 
     public static final String INPUT_FILE_PATH = "c:\\Users\\Lenovo\\IdeaProjects\\IT Academy\\Homework6\\src\\Task2\\io\\LoremIpsum.txt\\LoremIpsum.txt";

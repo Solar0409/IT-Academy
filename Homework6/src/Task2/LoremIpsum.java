@@ -3,6 +3,8 @@ package Task2;
 import java.io.*;
 import java.util.Date;
 
+//Task2
+
 public class LoremIpsum {
     public static void main(String[] args) throws IOException {
         java.io.File dirs = new java.io.File
