@@ -4,6 +4,9 @@ import java.util.NoSuchElementException;
 //Task3
 
 public class Array2Arr <T> implements Iterable {
+    public static void main(String[] args) {
+
+    }
     private T[][] arr;
 
     public void
