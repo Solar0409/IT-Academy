@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//Task2
 public class CopyFile {
     public static void main(String[] args) {
         try(FileInputStream fileIn = new FileInputStream

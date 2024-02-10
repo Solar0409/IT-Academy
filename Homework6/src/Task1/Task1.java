@@ -3,7 +3,7 @@ package Task1;
 import java.io.*;
 import java.util.Scanner;
 
-
+//Task1
 public class Task1 {
     public static void main(String[] args) {
         Scanner cs = new Scanner(System.in);
