@@ -1,4 +1,4 @@
-package Task1;
+package Homework7.src.Task1;
 
 import java.util.concurrent.ThreadLocalRandom;
 
