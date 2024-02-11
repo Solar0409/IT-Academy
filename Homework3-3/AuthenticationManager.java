@@ -1,5 +1,7 @@
 import java.util.*;
 import java.io.*;
+
+//HW3
 class AuthenticationManager {
     private Map<String, User> users;
 
