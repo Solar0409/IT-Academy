@@ -1,9 +1,10 @@
 package Homework7.src.Task2;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class User extends Person{
+public class User extends Person {
     private String login;
     private String password;
     private String email;
@@ -31,7 +32,8 @@ public class User extends Person{
     public void setEmail(String email) {
         this.email = email;
     }
-    public void printUserInfo(){
+
+    public void printUserInfo() {
         System.out.println("User info");
     }
 
@@ -74,14 +76,25 @@ public class User extends Person{
             System.out.println("login:" + loginField.get(user));
             System.out.println("Email:" + emailField.get(user));
 
+            Method toStringMethod = User.class.getMethod("toString");
+            System.out.println(toStringMethod.invoke(user));
 
-        } finally {
-
+        } catch (NoSuchFieldException | SecurityException |
+                 IllegalArgumentException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException | InvocationTargetException |
+                 NoSuchMethodException e) {
+            throw new RuntimeException(e);
         }
+
+
     }
 
-
-
-
-
 }
+    
+
+
+
+
+
+
